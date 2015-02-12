@@ -1,8 +1,8 @@
 #
-# Cookbook Name:: chef-torch7
+# Cookbook Name:: chef-torch
 # Recipe:: default
 #
-# Copyright (C) 2015 YOUR_NAME
+# Copyright (C) 2015 Brad Folkens
 #
 # All rights reserved - Do Not Redistribute
 #

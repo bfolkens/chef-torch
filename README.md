@@ -1,38 +1,21 @@
-# chef-torch7-cookbook
+# chef-torch cookbook
 
-TODO: Enter the cookbook description here.
+Super simple cookbook to install and configure the Torch LUA framework.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
-
-## Attributes
-
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['chef-torch7']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+ubuntu
 
 ## Usage
 
-### chef-torch7::default
+### torch::default
 
-Include `chef-torch7` in your node's `run_list`:
+Include `torch` in your node's `run_list`:
 
 ```json
 {
   "run_list": [
-    "recipe[chef-torch7::default]"
+    "recipe[torch::default]"
   ]
 }
 ```
@@ -48,4 +31,4 @@ Include `chef-torch7` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Brad Folkens(<bfolkens@gmail.com>)
